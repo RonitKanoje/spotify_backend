@@ -21,3 +21,13 @@ module.exports = connectDB;
 // properties of hashing => same password will be having same hash and we can't go back to the hash from the text
 
 // npm i multer 
+
+/* properties of middleware 
+1. middleware can read the data which is in request
+2. middleware can modify the request data
+3. middleeare can send response as well 
+
+next in the middleware means ("/album", authMiddleware.authArtist, musicController.createAlbum);  move to the right side
+
+
+*/
